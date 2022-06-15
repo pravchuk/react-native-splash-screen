@@ -16,7 +16,7 @@ import java.lang.ref.WeakReference;
  * Email:crazycodeboy@gmail.com
  */
 public class SplashScreen {
-    private static Dialog mSplashDialog;
+    public static Dialog mSplashDialog;
     private static WeakReference<Activity> mActivity;
 
     /**
